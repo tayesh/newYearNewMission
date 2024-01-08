@@ -124,7 +124,7 @@ header h2{
     font-weight: 600;
     line-height: 56px;
     padding: 100px;
-    height: 482px;
+    height: 400px;
 }
 .primaryColor{
     color: #F00;
@@ -136,4 +136,58 @@ header h2{
     outline: none;
     padding: 16px 32px;
     border-radius: 8px;
+}
+
+
+/*bestOffers*/
+#bestOffer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding:20px 120px;
+}
+.commingSoon{
+    padding: 30px;
+}
+.commingSoon h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 0;
+}
+.commingSoon h4{
+    color: #F00;
+    margin-bottom: 0;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.commingSoon p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.circle{
+    padding: 30px;
+    border: 30px solid #F00;
+    border-radius: 300px;
+}
+.t024{
+    padding: 30px;
+}
+.t024 h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.t024 p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px
 }
