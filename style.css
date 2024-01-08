@@ -203,7 +203,76 @@ header h2{
 }
 #gridc img{
     width: 100%;
+    transition:transform 0.3s ease;
 }
+#gridc img:hover{
+    transform: scale(1.015);
+}
+
 #bestGifts{
     padding: 20px 120px;
+}
+
+
+/*subscribe*/
+#Subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 50px 150px;
+    padding: 100px 150px;
+}
+#Subscribe h2{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+#Subscribe p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+input{
+    width: 440px;
+    height: 72px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: 0;
+    padding-right: 0;
+    padding-left: 30px;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 0;
+    outline: 0;
+}
+#Subscribe button{
+    padding-block: 0;
+    padding-inline: 0;
+    padding-left: 0;
+    margin-left: 0;
+    width: 210px;
+    height: 72px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #F00;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 0;
+    outline:0;
+    
+
 }
