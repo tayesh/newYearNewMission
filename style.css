@@ -191,3 +191,19 @@ header h2{
     font-weight: 400;
     line-height: 32px
 }
+
+
+/*best gifts*/
+#bestGifts #gridc{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 0 35px;
+    
+}
+#gridc img{
+    width: 100%;
+}
+#bestGifts{
+    padding: 20px 120px;
+}
