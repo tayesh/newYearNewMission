@@ -24,3 +24,40 @@ header h2{
     font-weight: 900;
     margin-top: 0;
 }
+
+
+
+/*discount-----*/
+#discount{
+    font-family:'Inter', sans-serif;
+    text-align: center;
+    width: 802.9px;
+    height: 815px;
+    background-image: url("images/New\ Year\ Photo.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+#discount h1{
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    
+}
+#discount h3{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0;
+
+   
+}
+#discount h4{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
