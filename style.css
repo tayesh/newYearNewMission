@@ -276,3 +276,15 @@ input{
     
 
 }
+/*footer*/
+footer{
+    background: #070211;margin-top: 100px; color: #FFF; padding: 50px 150px; font-family: Inter; font-size: 24px; font-weight: 500; 
+}
+hr{
+    opacity: 10%;
+}
+#icon img{
+    margin-top: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
